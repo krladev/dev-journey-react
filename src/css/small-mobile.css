@@ -13,9 +13,8 @@ and (orientation : portrait) {
     }
     .logo{
         width: 14%;
-    }
-    .logo i{
         font-size: 1.8rem;
+        line-height: 1;
     }
     .info{
         width: 65%;

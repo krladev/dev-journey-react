@@ -63,10 +63,10 @@ section{
 .logo{
     width: 10%;
     text-align: left;
+    font-size: 3.5rem;
+    line-height: 1;
 }
-.logo i{
-    font-size:3.5rem;
-}
+
 .info{
     width: 72%;
 }
