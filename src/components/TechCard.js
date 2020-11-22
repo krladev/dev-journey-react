@@ -3,6 +3,7 @@ import Moment from 'react-moment';
 import { TechIcon } from './TechIcon';
 
 export const TechCard = ({
+    index,
     infoDescription,
     lastUpdated,
     stars,
@@ -10,12 +11,10 @@ export const TechCard = ({
     techIcon,
     techTitle
 }) => {
-         
+
     return (        
         
-        <section className="tech-card-odd">
-            
-
+        <section className={`tech-card-${(index+1)%2 === 0 ? 'even':'odd'}`}>
             <div className="tech-card-wrapper">
                 <div className="logo">
                     <TechIcon icon={techIcon} />
