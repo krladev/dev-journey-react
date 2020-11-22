@@ -1,16 +1,19 @@
 import React from 'react'
+import { TechCard } from './TechCard'
+import { techStack } from '../data/techStack'
 
 export const AppBody = () => {
+    
     return (
-        <div id="techStack">
-            <section>
-                <div className="nothingToSeeHere">
-                    <div>
-                        <img src="./assets/images/loading.gif" />
-                        ... loading ...
-                    </div>
-                </div>
-            </section>
+        <div>
+        {
+            techStack.map(stack => {
+                return <TechCard 
+                            key={stack.techTitle}
+                            {...stack}
+                        />
+            })
+        }
         </div>
     )
 }
