@@ -5,7 +5,7 @@ export const AppHeader = () => {
         <header>
             <div className="title-container">
                 <h1>Karla Navas Dev Journey</h1>
-                <input id="searchField" type="text" className="form-search" autocomplete="off" placeholder="Tech term search"/>
+                <input id="searchField" type="text" className="form-search" autoComplete="off" placeholder="Tech term search"/>
             </div>
             <div className="pic-container">
                 <div><img src="./assets/images/avatar-normal.jpg" /></div>
