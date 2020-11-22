@@ -3,13 +3,19 @@ import { TechCard } from './TechCard'
 import { techStack } from '../data/techStack'
 
 export const AppBody = () => {
-    
+
+    const keywords = '';
+    const filteredStack = techStack.filter(stack => {
+        return keywords === "" || stack.techTitle.toLowerCase().includes(keywords.toLowerCase());
+    })
+
     return (
         <div>
         {
-            techStack.map(stack => {
+            filteredStack.map((stack, i) => {
                 return <TechCard 
                             key={stack.techTitle}
+                            index={i}
                             {...stack}
                         />
             })
