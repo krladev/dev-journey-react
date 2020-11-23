@@ -21,6 +21,7 @@ header{
 }
 .title-container h1{
     margin: 1rem 1rem 1rem 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .title-container input[type=text]{
     border: 1px solid rgb(213, 40, 213);

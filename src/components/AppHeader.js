@@ -14,7 +14,7 @@ export const AppHeader = () => {
     return (
         <header>
             <div className="title-container">
-                <h1>Karla Navas Dev Journey</h1>
+                <h1>Dev Journey <u>with ReactJS</u></h1>
                 <input 
                     type="text" 
                     className="form-search" 
