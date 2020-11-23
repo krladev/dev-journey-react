@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { TechCard } from './TechCard'
 import { techStack } from '../data/techStack'
+import { SearchContext } from '../context/SearchContext'
 
 export const AppBody = () => {
+    const {keywords} = useContext(SearchContext);
 
-    const keywords = '';
     const filteredStack = techStack.filter(stack => {
         return keywords === "" || stack.techTitle.toLowerCase().includes(keywords.toLowerCase());
     })

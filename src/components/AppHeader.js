@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
+import { SearchContext } from '../context/SearchContext';
 
 export const AppHeader = () => {
-    const [keywords, setKeywords] = useState('');
+    const {keywords, dispatch} = useContext(SearchContext);
 
     const handleKeywords = (e) => {
-        setKeywords(e.target.value);
+        dispatch({
+            type: 'update',
+            payload: e.target.value
+        });
     };
 
     return (
