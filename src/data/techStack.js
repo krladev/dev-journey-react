@@ -37,7 +37,7 @@ export const techStack = [
             "title": "Things I know",
             "description": "Browser based JS, Classes, ES5, ES6, Async/Await, Modules"
         },
-        "stars": 3.5,
+        "stars": 4,
         "lastUpdated": "2020-10-20T22:00:00+10:00",
         "avatar": "avatar-normal.jpg"
     },
@@ -49,9 +49,9 @@ export const techStack = [
         ],
         "infoDescription": {
             "title": "Things I know",
-            "description": "Basic knowledge so far"
+            "description": "Components, State, etc"
         },
-        "stars": 1,
+        "stars": 3.5,
         "lastUpdated": "2020-10-20T22:00:00+10:00",
         "avatar": "avatar-normal.jpg"
     },
@@ -63,9 +63,9 @@ export const techStack = [
         ],
         "infoDescription": {
             "title": "Things I know",
-            "description": "Nothing yet."
+            "description": "Basic knowledge so far"
         },
-        "stars": 0,
+        "stars": 2,
         "lastUpdated": "2020-10-20T22:00:00+10:00",
         "avatar": "avatar-normal.jpg"
     },
@@ -77,9 +77,9 @@ export const techStack = [
         ],
         "infoDescription": {
             "title": "Things I know",
-            "description": "Basic Laravel"
+            "description": "Laravel front end and API dev"
         },
-        "stars": 2,
+        "stars": 4,
         "lastUpdated": "2020-10-20T22:00:00+10:00",
         "avatar": "avatar-normal.jpg"
     },
@@ -91,9 +91,9 @@ export const techStack = [
         ],
         "infoDescription": {
             "title": "Things I know",
-            "description": "Basic SQL statements to create schemas and do CRUD operations"
+            "description": "SQL statements to create schemas, joins, sub queries, etc"
         },
-        "stars": 0,
+        "stars": 3.5,
         "lastUpdated": "2020-10-20T22:00:00+10:00",
         "avatar": "avatar-normal.jpg"
     },
@@ -147,9 +147,9 @@ export const techStack = [
         ],
         "infoDescription": {
             "title": "Things I know",
-            "description": "Nothing yet."
+            "description": "Very basic"
         },
-        "stars": 0,
+        "stars": 1.5,
         "lastUpdated": "2020-10-20T22:00:00+10:00",
         "avatar": "avatar-normal.jpg"
     },
